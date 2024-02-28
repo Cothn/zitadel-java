@@ -13,11 +13,11 @@ spring:
       client:
         provider:
           zitadel:
-            issuer-uri: '<the-web-issuer>'
+            issuer-uri: 'http://localhost:8081'
             user-name-attribute: preferred_username
         registration:
           zitadel:
-            client-id: '<the-web-client-id>'
+            client-id: '253167323886714883@dc_cms'
             client-authentication-method: none
             authorizationGrantType: authorization_code
             redirect-uri: '{baseUrl}/login/oauth2/code/{registrationId}'

@@ -16,9 +16,9 @@ spring:
     oauth2:
       resourceserver:
         opaquetoken:
-          introspection-uri: '<api-introspection-uri>'
-          client-id: '<the-api-client-id>'
-          client-secret: '<the-api-client-secret>'
+          introspection-uri: '253167323886714883@dc_cms'
+          client-id: '253162957817577475@dc_cms'
+          client-secret: 'p2jBN10mkLaxICWCDiWiQQD0qeThMdERmvAkZC8lyqyRd4A0vakwosb5hYekoBwm'
 
 logging:
   level:
